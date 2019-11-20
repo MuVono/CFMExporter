@@ -15,9 +15,9 @@ admin.initializeApp({
 
 app.set('port', (process.env.PORT || 3001));
 
-app.get('*', (req, res) => {
-    res.send('Madden Companion Exporter');
-});
+//app.get('*', (req, res) => {
+//    res.send('Madden Companion Exporter');
+//});
 
 app.get('/delete', function(req, res) {
     const db = admin.database();
